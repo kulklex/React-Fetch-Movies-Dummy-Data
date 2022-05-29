@@ -1,0 +1,54 @@
+.moviesCard{
+    width: 20vw;
+    margin: 1rem;
+    color: white;
+    position: relative;  
+  }
+  
+  .moviesTitle{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+   
+  }
+  
+.moviesList{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.buttonWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+  .moviesButton{
+    position: absolute;
+    bottom: 2rem;
+  }
+  
+  .moviesImg{
+    height: 40vh;
+    width: 20vw;
+  }
+
+  .pageNavigation{
+      display: flex;
+      justify-content: center;
+  }
+
+  @media screen and (max-width:400px){
+    
+    .moviesCard{
+      width: 40vw;
+      margin: 0.1rem;
+    }
+    .moviesButton{
+      width: 80%;
+    }
+    .moviesImg{
+      width: 40vw;
+    }
+  }
