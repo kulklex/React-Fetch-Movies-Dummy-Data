@@ -12,10 +12,10 @@ export default function Banner() {
     </>);
   } else {
     return (<>
-      <div className="card bannerCard banner-card">
-        <img className="card-img-top bannerImg banner-img" src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} alt={movie.title} />
-          <h1 className="card-title bannerTitle banner-title">{movie.original_title}</h1>
-          <p className="card-text bannerText banner-text">
+      <div className="card bannerCard">
+        <img className="card-img-top bannerImg" src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} alt={movie.title} />
+          <h1 className="card-title bannerTitle">{movie.original_title}</h1>
+          <p className="card-text bannerText">
             {movie.overview}
           </p>
       </div>

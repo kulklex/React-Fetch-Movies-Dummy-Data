@@ -1,5 +1,5 @@
 .bannerCard{
-    width: 100vh;
+    width: 100vw;
     margin-top: 1vh;
     margin-bottom: 3vh;
     position: relative;
@@ -9,7 +9,7 @@
 
 .bannerImg{
     height: 70vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .bannerTitle{
