@@ -1,0 +1,14 @@
+.navbarHome {
+    display: flex;
+    padding: '0.5';
+}
+
+.favourites{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.moviesApp{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
